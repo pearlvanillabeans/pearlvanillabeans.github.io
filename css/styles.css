@@ -1,0 +1,43 @@
+:root {
+    font-family: "Raleway", Arial;
+    font-size: 1.6em;
+    background-color: antiquewhite;
+
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+
+}
+main {
+    margin: 5px;
+    padding: 5px;
+}
+body {
+    justify-items: center;
+}
+
+header,
+/* main, */
+footer {
+    margin: 5px;
+    place-self: center;
+    text-align: center;
+    border: 3px solid rgb(183, 157, 122);
+    background-color: tan;
+    width: stretch;
+    width: -webkit-fill-available;
+    width: -moz-available;
+}
+
+.links {
+    font-size: .8em;
+    font-family: monospace;
+}
+
+address {
+    margin: 5px
+}
+
